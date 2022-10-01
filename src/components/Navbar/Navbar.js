@@ -1,40 +1,36 @@
-import React, {useState, useEffect} from 'react'
-import './Navbar.css'
+import React from 'react';
+import {
+  Nav,
+  NavLink,
+  Bars,
+  NavMenu,
+  NavBtn,
+  NavBtnLink,
+} from './components/Navbar/NavbarElements';
 
-export default function Navbar() {
-  const [toggleMenu, setToggleMenu] = useState(false)
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-
-
-  const toggleNav = () => {
-    setToggleMenu(!toggleMenu)
-  }
-
-  useEffect(() => {
-
-    const changeWidth = () => {
-      setScreenWidth(window.innerWidth);
-    }
-
-    window.addEventListener('resize', changeWidth)
-
-    return () => {
-        window.removeEventListener('resize', changeWidth)
-    }
-
-  }, [])
-
+  
+const Navbar = () => {
   return (
-    <nav>
-      {(toggleMenu || screenWidth > 500) && (
-      <ul className="list">
-      <li className="items" link to='/goalMates'>goalMates</li>
-      <li className="items" link to='/WeatherNews'>Weather & News</li>
-      <li className="items" link to='/Signup'>Signup</li>
-    </ul>
-      )}
-
-      <button onClick={toggleNav} className="btn">BTN</button>
-    </nav>
-  )
-}
+   
+      <Nav>
+        <Bars />
+  
+        <NavMenu>
+          <NavLink to='./components/Navbar/goalMates' activeStyle>
+            goalMates
+          </NavLink>
+          <NavLink to='./components/Navbar/WeatherNews' activeStyle>
+            Weather and News
+          </NavLink>
+    
+         
+        </NavMenu>
+        <NavBtn>
+          <NavBtnLink to='./components/Navbar/SignUp'>Sign In</NavBtnLink>
+        </NavBtn>
+      </Nav>
+   
+  );
+};
+  
+export default Navbar;

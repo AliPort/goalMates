@@ -1,6 +1,7 @@
 import React from 'react';
+
   
-const SignUp = () => {
+const WeatherNews = () => {
   return (
     <div
       style={{
@@ -10,9 +11,9 @@ const SignUp = () => {
         height: '100vh'
       }}
     >
-      <h1>Sign Up</h1>
+      <h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
     </div>
   );
 };
   
-export default SignUp;
+export default WeatherNews;
