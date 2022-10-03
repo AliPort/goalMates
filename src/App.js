@@ -1,27 +1,27 @@
-import React from 'react'
-import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import WeatherNews from './components/Navbar/WeatherNews';
-import SignUp from './components/Navbar/SingUp';
-
-
+import "./App.css";
+import NavBar from "./components/NavBar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Home } from "./components/Pages/Home";
+import { About } from "./components/Pages/About";
+import { Blog } from "./components/Pages/Blog";
+import { Contact } from "./components/Pages/Contact";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Router>
-      <Navbar />
-      <Routes>
-        <Route path='/' exact component={Home} />
-        <Route path='/WeatherNews' component={WeatherNews} />
-        <Route path='/Sign-up' component={SignUp} />
-      </Routes>
-    </Router>
-    
+        <NavBar />
 
-    </div>
+        <div className="pages">
+          <Routes>
+            <Route end path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/blog" component={Blog} />
+            <Route path="/contact" component={Contact} />
+          </Routes>
+        </div>
+      </Router>
+    </>
   );
 }
 
