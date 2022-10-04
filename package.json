@@ -6,34 +6,50 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "bootstrap": "^5.2.2",
+=======
     "npm-check": "^6.0.1",
+>>>>>>> 1f718b76cbd23f4fffb9ba387880c05af05797b5
+=======
+    "npm-check": "^6.0.1",
+>>>>>>> main
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
+  }, 
+  "scripts": { 
+    "start": "react-scripts start", 
     "build": "react-scripts build",
+<<<<<<< HEAD
+<<<<<<< HEAD
     "test": "react-scripts test",
+=======
+    "test": "react-scripts test",  
+>>>>>>> 1f718b76cbd23f4fffb9ba387880c05af05797b5
+=======
+    "test": "react-scripts test",
+>>>>>>> main
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
+    "extends": [ 
       "react-app",
-      "react-app/jest"
-    ]
+      "react-app/jest" 
+    ] 
   },
-  "browserslist": {
+  "browserslist": { 
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      ">0.2%",   
+      "not dead", 
+      "not op_mini all"    
     ],
     "development": [
-      "last 1 chrome version",
+      "last 1 chrome version", 
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version" 
     ]
   }
 }
