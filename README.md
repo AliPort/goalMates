@@ -35,8 +35,6 @@ Collaborators
 * Kevin Beck
 * Tammy Swierczynski
 
-Documentation
-* SoumyashreeBehera: https://github.com/SoumyashreeBehera/meetup-clone
 
 ## Tests
 
