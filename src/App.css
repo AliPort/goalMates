@@ -52,8 +52,8 @@
 }
 
 .messages{
-  display: flex;
-  justify-content: center;
+  display: block ;
+  justify-content: flex-end;
 }
  
 .error{

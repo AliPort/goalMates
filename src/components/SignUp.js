@@ -2,19 +2,23 @@
 
 import { useState } from 'react';
 
-export default function Form() {
+export default function SignUp() {
 
     // States for registration
-    const [name, setName] = useState('');
+    const [username, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [location, setLocation] = useState('');
+    const [bio, setBio] = useState('');
+    const [profile_pic, setProfile_pic] = useState('');
+
+
 
     // States for checking the errors
     const [submitted, setSubmitted] = useState(false);
     const [error, setError] = useState(false);
 
-    // Handling the name change
+    // Handling the username change
     const handleName = (e) => {
         setName(e.target.value);
         setSubmitted(false);
@@ -38,10 +42,22 @@ export default function Form() {
         setSubmitted(false);
     };
 
+    // Handling the bio change
+    const handleBio = (e) => {
+        setBio(e.target.value);
+        setSubmitted(false);
+    };
+
+    // Handling the profile_pic change
+    const handleProfile_pic = (e) => {
+        setProfile_pic(e.target.value);
+        setSubmitted(false);
+    };
+
     // Handling the form submission
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (name === '' || email === '' || password === '') {
+        if (username === '' || email === '' || password === '') {
             setError(true);
         } else {
             setSubmitted(true);
@@ -57,7 +73,7 @@ export default function Form() {
                 style={{
                     display: submitted ? '' : 'none',
                 }}>
-                <h1>User {name} has successfully registered!!</h1>
+                <h1>User {username} has successfully registered!!</h1>
             </div>
         );
     };
@@ -78,7 +94,7 @@ export default function Form() {
     return (
         <div className="form">
             <div>
-                <h1>User Registration</h1>
+                <h1>Sign Up Now!</h1>
             </div>
 
             {/* Calling to the methods */}
@@ -89,22 +105,36 @@ export default function Form() {
 
             <form>
                 {/* Labels and inputs for form data */}
-                <label className="label">Name</label>
-                <input onChange={handleName} className="input"
-                    value={name} type="text" />
-
-                <label className="label">Email</label>
-                <input onChange={handleEmail} className="input"
-                    value={email} type="email" />
-
-                <label className="label">Password</label>
-                <input onChange={handlePassword} className="input"
-                    value={password} type="password" />
-
-                <label className="label">Location</label>
-                <input onChange={handleLocation} className="input"
-                    value={location} type="location" />
-
+                <div>
+                    <label className="label">User Name</label>
+                    <input onChange={handleName} className="input"
+                        value={username} type="text" />
+                </div>
+                <div>
+                    <label className="label">Email</label>
+                    <input onChange={handleEmail} className="input"
+                        value={email} type="email" />
+                </div>
+                <div>
+                    <label className="label">Password</label>
+                    <input onChange={handlePassword} className="input"
+                        value={password} type="password" />
+                </div>
+                <div>
+                    <label className="label">Location</label>
+                    <input onChange={handleLocation} className="input"
+                        value={location} type="location" />
+                </div>
+                <div>
+                    <label className="label">Bio</label>
+                    <input onChange={handleBio} className="input"
+                        value={bio} type="bio" />
+                </div>
+                <div>
+                    <label className="label">Profile Pic</label>
+                    <input onChange={handleProfile_pic} className="input"
+                        value={profile_pic} type="file" />
+                </div>
                 <button onClick={handleSubmit} className="btn" type="submit">
                     Submit
                 </button>
