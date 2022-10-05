@@ -1,15 +1,35 @@
 import React from 'react'
-import logo from './logo.svg';
 import './App.css';
+import SearchBar from './components/Searchbar';
 import Home from './components/Home';
 import SignUp from './components/SignUp';
-import Goal from './components/Goal';
+import GoalsView from './components/GoalsView';
+import CalendarView from './components/CalendarView';
+import MatesView from './components/MatesView';
+// import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
+
+
   return (
     <div className="App">
-      <Home/>
-      <SignUp/>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/Signup" element={<SignUp />} />
+        <Route path="/Mates" element={<MatesView />} />
+        <Route path="/Calendar" element={<CalendarView />} />
+        <Route path="/Goals" element={<GoalsView />} />
+      </Routes>
+    </Router>
+
+    <SearchBar/>
+    <Home/>
+    <SignUp/>
+    <GoalsView />
+    <MatesView/>
+    
     </div>
   );
 }
