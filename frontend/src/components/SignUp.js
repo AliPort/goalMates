@@ -92,6 +92,7 @@ export default function SignUp() {
     };
 
     return (
+        <section id="signup">
         <div className="form">
             <div>
                 <h1>Sign Up Now!</h1>
@@ -140,7 +141,6 @@ export default function SignUp() {
                 </button>
             </form>
         </div>
+        </section>
     );
 }
-
-

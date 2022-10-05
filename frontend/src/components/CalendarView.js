@@ -3,8 +3,10 @@
 
 export default function CalendarView (){
     return(
+        <section id="section">
         <div>
         <h1>This is the CalendarView page</h1>
         </div>
+        </section>
     )
 }
