@@ -1,33 +1,38 @@
 import React from 'react'
 import './App.css';
-import { 
-  BrowserRouter as Router,
-  useRoutes,
-} from 'react-router-dom';
+import SearchBar from './components/Searchbar';
+import Home from './components/Home';
+import SignUp from './components/SignUp';
+import GoalsView from './components/GoalsView';
+import CalendarView from './components/CalendarView';
+import MatesView from './components/MatesView';
+// import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-// Pages
-import Landing from './components/Pages/Landing';
-import SignUp from './components/SignUp'
-import LoggedInLanding from './components/Pages/LoggedInLanding';
+function App() {
 
-const AppRoutes = () => {
-    let routes = useRoutes([ 
-        { path: '/', element: <Landing /> },
-        // functionality notes: in an ideal world the landing and the LoggedInLanding would both be at this route depending on if you're logged in
-        { path: '/loggedin', element: <LoggedInLanding/> },
-        { path: '/signup', element: <SignUp/> },
-      ]);
 
-    return routes;
-};
-
-const App = () => {
   return (
+    <div className="App">
     <Router>
-      <AppRoutes/>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/Signup" element={<SignUp />} />
+        <Route path="/Mates" element={<MatesView />} />
+        <Route path="/Calendar" element={<CalendarView />} />
+        <Route path="/Goals" element={<GoalsView />} />
+      </Routes>
     </Router>
-  )
-};
+
+    <SearchBar/>
+    <Home/>
+    <SignUp/>
+    <GoalsView />
+    <MatesView/>
+    
+    </div>
+  );
+}
 
 export default App;
 
