@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './Home';
+import Landing from './Pages/Landing';
 
 function Goal(){
     return (
