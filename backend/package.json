@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+<<<<<<< HEAD
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,5 +15,15 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
     "react": "^18.2.0"
+=======
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connection-manager": "^1.0.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "sequelize": "^6.23.2"
+>>>>>>> development
   }
 }

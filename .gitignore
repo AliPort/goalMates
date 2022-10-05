@@ -1,4 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.git/.index.lock
 
 # dependencies
 /node_modules
@@ -14,6 +15,7 @@
 # misc
 .env
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
@@ -22,3 +24,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+node_modules
