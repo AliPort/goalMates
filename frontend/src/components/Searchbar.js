@@ -11,6 +11,7 @@ function SearchBar(props) {
             } />
 
             <input type="submit" />
+            <p><i>(The search bar needs to get added into the nav bar.)</i></p>
 
         </form>
     )
