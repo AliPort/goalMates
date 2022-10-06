@@ -1,0 +1,60 @@
+/* Create React Template CSS */
+body {
+  margin: 0;
+  background-color: #FF4D4D;
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+}
+
+div {
+  color: #962D2D;
+}
+
+p {
+  background-color: #FFFF4D;
+  color: #B38336;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+/* SignUp.js CSS */
+
+.btn {
+  color: white;
+  background-color: rgb(30, 195, 44);
+  border-radius: 15px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+<<<<<<< HEAD:frontend/src/App.css
+.messages{
+  display: block ;
+  justify-content: flex-end;
+=======
+.messages {
+  display: flex;
+  justify-content: center;
+>>>>>>> alita:src/App.css
+}
+
+.error {
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+
+.success {
+  display: block;
+  background-color: rgb(68, 157, 213);
+  color: black;
+  width: fit-content;
+  height: 70px;
+  padding: 5px;
+}
