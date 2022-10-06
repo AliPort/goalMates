@@ -1,11 +1,14 @@
 import React from 'react';
 import Landing from './Pages/Landing';
 
-function Goal(){
+function Goals(){
     return (
-        <h1>This is the Goals page</h1>,
-        <h2>You can also create your own goals to find common goals</h2>
+        <div>
+            <h1>This is the GoalsView component</h1>,
+            <h2>Create your own goals on your profile page to match common goals</h2>
+            <alert>this component is the wireframe with the header of 'Goals' </alert>
+        </div>
     )
 }
 
-export default Goal
+export default Goals
