@@ -19,31 +19,30 @@ import YourMates from './components/Pages/YourMates';
 
 // import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
 
   return (
     <div className="App">
-    
-      
-      <Router>
+    <Router>
+    <Navbar/>
       <Routes>
+     
         <Route path="/" element={<Home/>} />
-        <Route path="/newuser" element={<SignUpPage/>}/>
+        {/* <Route path="/newuser" element={<SignUpPage/>}/> */}
         <Route path="/LogIn" element={<LogIn />} />
         <Route path="/Mates" element={<YourMates/>} />
-        {/* <Route path="/Calendar" element={<CalendarView />} /> */}
-        <Route path="/Goals" element={<GoalsPage />} />
-        {/* <Route path="/newgoal" element={<NewGoal/>} /> */}
-        <Route path='/profile' element={<Profile/>} />
+        {/* <Route path="/Calendar" element={<CalendarView />} />  */}
+        <Route path="/Goals" element={<GoalsPage />} /> 
+        {/* <Route path="/newgoal" element={<NewGoal/>}  */}
+        <Route path='/profile' element={<Profile/>} /> 
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
-        <Route path='/signup' element={<SignUpPage/>}/>
+        <Route path='/signup' element={<SignUpPage/>}/> 
       </Routes>
       <Footer/>
     </Router>
-   
     </div> 
   );
 }
