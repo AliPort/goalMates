@@ -1,15 +1,15 @@
 import React from "react";
-import Calendar from "./Calendar";
+// import Calendar from "./Calendar";
 import Chat from "./Chat";
 import YourGoals from "./YourGoals";
-import YourMates from "./YourMates";
+import MatesView from "../MatesView";
 
 function SideBar(){
     return (
         <div className="SideBar">
-            <Calendar/>
+            {/* <Calendar/> */}
             <YourGoals/>
-            <YourMates/>
+            <MatesView/>
             <Chat/>
         </div>
     )
