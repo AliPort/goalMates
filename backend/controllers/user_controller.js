@@ -8,12 +8,12 @@ const { Op } = require('sequelize')
 user.get('/', async (req, res) => {
     try {
         const foundUsers = await User.findAll({
-           /* COPIED FROM MUSIC-TOUR API, NEEDS ADAPTATION
-            order: [ [ 'available_start_time', 'ASC' ] ],
+           
+            order: [ [ 'ASC' ] ],
             where: {
                 name: { [Op.like]: `%${req.query.name ? req.query.name : ''}%` }
             }
-            */
+           
         })
         res.status(200).json(foundUsers)
     } catch (error) {
@@ -25,14 +25,16 @@ user.get('/', async (req, res) => {
 user.get('/:name', async (req, res) => {
     try {
         const foundUser = await User.findOne({
-            /* COPIED FROM MUSIC-TOUR API, NEEDS ADAPTATION
             where: { name: req.params.name },
+            include: [ 
+                { 
+                model: User, 
+                }],
+                order: [
+                    DESC
+                ]
             
-        order: [
-            
-        ]
-        */
-    })
+            })
         res.status(200).json(foundUser)
     } catch (error) {
         res.status(500).json(error)

@@ -9,12 +9,12 @@ const { Op } = require('sequelize')
 goal.get('/', async (req, res) => {
     try {
         const foundGoals = await Goal.findAll({
-           /* COPIED FROM MUSIC-TOUR API, NEEDS ADAPTATION
-            order: [ [ 'available_start_time', 'ASC' ] ],
+           
+            order: [ [ 'ASC' ] ],
             where: {
                 name: { [Op.like]: `%${req.query.name ? req.query.name : ''}%` }
             }
-            */
+           
         })
         res.status(200).json(foundGoals)
     } catch (error) {
@@ -26,14 +26,16 @@ goal.get('/', async (req, res) => {
 goal.get('/:name', async (req, res) => {
     try {
         const foundGoal = await Goal.findOne({
-            /* COPIED FROM MUSIC-TOUR API, NEEDS ADAPTATION
             where: { name: req.params.name },
+            include: [ 
+                { 
+                model: Goal
+                }],
+                order: [
+                    DESC
+                ]
             
-        order: [
-            
-        ]
-        */
-    })
+            })
         res.status(200).json(foundGoal)
     } catch (error) {
         res.status(500).json(error)
