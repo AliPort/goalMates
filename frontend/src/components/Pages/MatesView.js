@@ -5,11 +5,11 @@ import React from 'react';
 
 function MatesView(){
     return (
-        <section id='mates-view'>
+        
         <div>
         <h1>This is the mates view page component</h1>
         </div>
-        </section>
+    
     )
 }
 
