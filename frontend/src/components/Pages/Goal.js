@@ -2,7 +2,14 @@ import React from 'react';
 
 function Goal(){
     return (
-        <div>
+        <div
+        style={{
+        display: 'flex',
+        justifyContent: 'Right',
+        alignItems: 'Right',
+        height: '100vh'
+      }}
+      >
             <h1>Goal Title</h1>,
             <h2>Location</h2>
             <h2>Tags</h2>
