@@ -3,16 +3,20 @@ import './App.css';
 
 //components
 import SearchBar from './components/Searchbar';
-import GoalsView from './components/GoalsView';
-import CalendarView from './components/CalendarView';
-import MatesView from './components/MatesView';
+// import CalendarView from './components/CalendarView';
 import NewGoal from './components/NewGoal';
 import LogIn from './components/LogIn';
 import Footer from './components/Footer';
+import SignUp from './components/SignUp';
 
 //pages
 import Home from './components/Pages/Home';
 import SignUpPage from './components/Pages/SignUpPage';
+import Profile from './components/Pages/Profile';
+import About from './components/Pages/About';
+import Contact from './components/Pages/Contact';
+import GoalsPage from './components/Pages/GoalsPage';
+import YourMates from './components/Pages/YourMates';
 
 // import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
@@ -27,15 +31,20 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/signup" element={<SignUpPage/>}/>
+        <Route path="/newuser" element={<SignUpPage/>}/>
         <Route path="/login" element={<LogIn />} />
-        <Route path="/Mates" element={<MatesView />} />
-        <Route path="/Calendar" element={<CalendarView />} />
-        <Route path="/Goals" element={<GoalsView />} />
+        <Route path="/Mates" element={<YourMates/>} />
+        {/* <Route path="/Calendar" element={<CalendarView />} /> */}
+        <Route path="/Goals" element={<GoalsPage />} />
         <Route path="/newgoal" element={<NewGoal/>} />
+        <Route path='/profile' element={<Profile/>} />
+        <Route path='/about' element={<About/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/signup' element={<SignUp/>}/>
       </Routes>
+      <Footer/>
     </Router>
-    <Footer/>
+   
     </div> 
   );
 }
