@@ -1,3 +1,5 @@
+/* Create React Template CSS */
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* SignUp.js CSS */
+
+.btn{
+  color: white;
+  background-color: rgb(30, 195, 44);
+  border-radius: 15px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.messages{
+  display: block ;
+  justify-content: flex-end;
+}
+ 
+.error{
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+ 
+.success{
+  display: block;
+  background-color: rgb(68, 157, 213);
+  color: black;
+  width: fit-content;
+  height: 70px;
+  padding: 5px;
 }
