@@ -1,5 +1,4 @@
 import React from 'react';
-import WhyGoalMates from './WhyGoalMates';
 import { Link } from "react-router-dom"
 
 function SignUpPage(){

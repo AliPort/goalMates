@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom"
 import SideBar from '../SideBar/Sidebar';
-import MatesView from './MatesView';
+import MatesView from '../MatesView';
 
 function YourMates(){
     return (
