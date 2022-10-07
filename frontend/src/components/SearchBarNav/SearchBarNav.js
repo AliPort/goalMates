@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import ReactDOM from "react-dom";
 import styled from "styled-components";
-// import SearchBar from "./components/Searchbar";
+
 
 
 import "./styles.css";
@@ -52,33 +52,30 @@ const Button = styled.button`
   color: white;
 `;
 
-function SearchNav(props) {
+function SearchBarNav() {
   const [input, setInput] = useState("");
   const [barOpened, setBarOpened] = useState(false);
   const formRef = useRef();
   const inputFocus = useRef();
- 
 
   const onFormSubmit = e => {
-    (e) => props.handleSearch(e, searchTerm)}
+    // When form submited, clear input, close the searchbar and do something with input
     e.preventDefault();
     setInput("");
     setBarOpened(false);
     // After form submit, do what you want with the input value
     console.log(`Form was submited with input: ${input}`);
-  
+  };
 
   return (
-    <div className="search-bar">
+    <div className="styles">
       <Form
         barOpened={barOpened}
         onClick={() => {
-          
-            } />
           // When form clicked, set state of baropened to true and focus the input
           setBarOpened(true);
           inputFocus.current.focus();
-        }
+        }}
         // on focus open search bar
         onFocus={() => {
           setBarOpened(true);
@@ -89,12 +86,11 @@ function SearchNav(props) {
           setBarOpened(false);
         }}
         // On submit, call the onFormSubmit function
-        onSubmit={(e) => props.handleSearch(e, searchTerm)}
+        onSubmit={onFormSubmit}
         ref={formRef}
       >
-     
         <Button type="submit" barOpened={barOpened}>
-          search
+          icon
         </Button>
         <Input
           onChange={e => setInput(e.target.value)}
@@ -108,4 +104,4 @@ function SearchNav(props) {
   );
 }
 
-export default SearchNav;
+export default SearchBarNav;
