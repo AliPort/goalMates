@@ -10,12 +10,13 @@ NavLogo,
 NavIcon
 } from './NavbarElements';
 import { HamburgerMenu } from "../hamburgerMenu";
+// import { SearchBarNav } from '../SearchBarNav';
 import styled from "styled-components";
 
 const NavbarContainer = styled.div`
-  width: 100%;
+  width: 10%;
   height: 55px;
-  border-bottom: 1px solid #fff;
+  ${'' /* border-bottom: 1px solid #fff; */}
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -50,10 +51,12 @@ function Navbar(props) {
 					{/* Second Nav */}
 					{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 				</NavMenu>
+				
 				<NavBtn>
 					<NavBtnLink to='/LogIn'>Sign in</NavBtnLink>
 				</NavBtn>
 				<NavbarContainer>
+				{/* <SearchBarNav /> */}
       <HamburgerMenu />
     </NavbarContainer>
 			</Nav>

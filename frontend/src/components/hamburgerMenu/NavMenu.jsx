@@ -63,54 +63,7 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="./">Home</a>
-        </NavLink>
-        <NavLink
-          initial={false}
-          animate={isOpen ? "show" : "hide"}
-          variants={{
-            show: {
-              ...variants.show,
-              transition: { delay: 0.4, duration: 0.2 },
-            },
-            hide: {
-              ...variants.hide,
-              transition: { delay: 0.1, duration: 0.05 },
-            },
-          }}
-        >
-          <a href="./About">About</a>
-        </NavLink>
-        <NavLink
-          initial={false}
-          animate={isOpen ? "show" : "hide"}
-          variants={{
-            show: {
-              ...variants.show,
-              transition: { delay: 0.5, duration: 0.2 },
-            },
-            hide: {
-              ...variants.hide,
-              transition: { delay: 0.15, duration: 0.05 },
-            },
-          }}
-        >
-          <a href="./Contact">Contact</a>
-        </NavLink>
-        <NavLink
-          initial={false}
-          animate={isOpen ? "show" : "hide"}
-          variants={{
-            show: {
-              ...variants.show,
-              transition: { delay: 0.6, duration: 0.2 },
-            },
-            hide: {
-              ...variants.hide,
-              transition: { delay: 0.2, duration: 0.05 },
-            },
-          }}
-        >
+       
           <a href="./Goal">Goal</a>
         </NavLink>
         <NavLink
