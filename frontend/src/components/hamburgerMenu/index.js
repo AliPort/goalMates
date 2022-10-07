@@ -23,7 +23,7 @@ const MenuContainer = styled(motion.div)`
   width: 5%;
   max-width: 44%;
   height: 100%;
-  background-color: #fff;
+  background-color: #4d7aff;
   box-shadow: -2px 0 2px rgba(15, 15, 15, 0.3);
   z-index: 90;
   position: fixed;
@@ -139,7 +139,7 @@ export function HamburgerMenu(props) {
             variants={commonVariants}
             transition={commonTransition}
           >
-            JOIN US
+            SIGN UP
           </LoginButton>
         </TopContainer>
         <ContentContainer>

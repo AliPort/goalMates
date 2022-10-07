@@ -1,7 +1,4 @@
 # goalMates
-<<<<<<< HEAD
-# hello
-=======
 
 Find Your Peeps to Help You Succeed
 
@@ -45,4 +42,3 @@ Collaborators
 
 
 
->>>>>>> development

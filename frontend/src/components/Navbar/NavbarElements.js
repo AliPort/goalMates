@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
 background: #ff4d4d;
-height: 85px;
+height: 50px;
 display: flex;
 justify-content: space-between;
 padding: 0.2rem calc((100vw - 1000px) / 2);
@@ -14,7 +14,7 @@ z-index: 12;
 `;
 
 export const NavLink = styled(Link)`
-color: #808080;
+color: #4d7aff;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -28,7 +28,7 @@ cursor: pointer;
 
 export const Bars = styled(FaBars)`
 display: none;
-color: #808080;
+color: #962d2d;
 @media screen and (max-width: 768px) {
 	display: block;
 	position: absolute;
@@ -70,7 +70,7 @@ export const NavBtnLink = styled(Link)`
 border-radius: 4px;
 background: #808080;
 padding: 10px 22px;
-color: #b3b336;
+color: #4d7aff;
 outline: none;
 border: none;
 cursor: pointer;
