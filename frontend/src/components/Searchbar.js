@@ -4,7 +4,7 @@ function SearchBar(props) {
     let [searchTerm, setSearchTerm] = useState('')
 
     return (
-        <section>
+        
         <div className="search-bar">
         <form onSubmit={(e) => props.handleSearch(e, searchTerm)}>
 
@@ -17,7 +17,7 @@ function SearchBar(props) {
 
         </form>
         </div>
-        </section>
+      
     )
 }
 

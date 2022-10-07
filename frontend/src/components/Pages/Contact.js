@@ -1,16 +1,13 @@
 import React from "react";
+import {Container} from "../Globalstyles";
 
 function Contact () {
     return (
-        <div className="Contact"
-        style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
-      }}>
+        <Container>
+        <div className="Contact">
             <h1>Contact Us</h1>
         </div>
+        </Container>
     )
 };
 
