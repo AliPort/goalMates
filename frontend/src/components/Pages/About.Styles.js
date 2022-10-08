@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-import img from "../Assets/images/soccer.jpg";
+import img from "../assets/soccer.jpg";
 
 export const HeroContainer = styled.div`
 background-image: linear-gradient( to top right, rgba(11, 10, 10, 0.38), rgba(11, 10, 10, 0.19)), url(${img});
