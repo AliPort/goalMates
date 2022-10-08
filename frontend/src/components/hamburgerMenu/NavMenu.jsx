@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
+import {Link} from "react-router-dom";
+
 
 const NavMenuContainer = styled.div`
   width: 100%;
@@ -45,7 +47,7 @@ const variants = {
   },
 };
 
-export function NavMenu({ isOpen }) {
+function NavMenu({ isOpen }) {
   return (
     <NavMenuContainer>
       <NavList>
@@ -64,8 +66,8 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-       
-          <a href="./Goal">Goal</a>
+       <Link to="Goal">Goal</Link>
+         
         </NavLink>
   
         <NavLink
@@ -82,7 +84,8 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="./GoalsPage">GoalsPage</a>
+        <Link to="GoalsPage">Goals Page</Link>
+         
         </NavLink>
         <NavLink
           initial={false}
@@ -98,7 +101,8 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="./GoalsView">GoalsView</a>
+        <Link to="Goalsview">Goals View</Link>
+         
         </NavLink>
         <NavLink
           initial={false}
@@ -114,7 +118,8 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="./MatesView">MatesView</a>
+        <Link to="MatesView">Mates View</Link>
+        
         </NavLink>
         <NavLink
           initial={false}
@@ -130,7 +135,7 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="./Profile">Profile</a>
+        <Link to="Profile">Profile</Link>
         </NavLink>
         <NavLink
           initial={false}
@@ -146,7 +151,9 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="./StarredGoals">StarredGoals</a>
+        <Link to="StarredGoals">Starred Goals
+          </Link>
+         
         </NavLink>
         <NavLink
           initial={false}
@@ -162,7 +169,8 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="./UpcomingGoals">UpcomingGoals</a>
+        <Link to="UpcomingGoals">Upcoming Goals</Link>
+      
         </NavLink>
         <NavLink
           initial={false}
@@ -178,7 +186,8 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="./WhyGoalsMates">WhyGoalMates</a>
+        <Link to="WhyGoalsMates">Why goalMates</Link>
+          
         </NavLink>
         <NavLink
           initial={false}
@@ -194,7 +203,8 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="./Chat">Chat</a>
+        <Link to="Chat">Chat</Link>
+          
         </NavLink>
         <NavLink
           initial={false}
@@ -210,9 +220,11 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="#">YourGoals</a>
+          <Link to="yourgoals">Your Goals</Link>
+        
         </NavLink>
       </NavList>
     </NavMenuContainer>
   );
 }
+export default NavMenu;
