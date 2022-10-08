@@ -3,6 +3,7 @@ import './App.css';
 
 //components
 
+
 // import CalendarView from './components/CalendarView';
 
 import LogIn from './components/Pages/LogIn';
@@ -20,6 +21,7 @@ import YourMates from './components/Pages/YourMates';
 // import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar';
+import Register from './components/Pages/Register';
 
 function App() {
 
@@ -40,6 +42,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/signup' element={<SignUpPage/>}/> 
+        <Route path='/register' element={<Register/>}/>
       </Routes>
       <Footer/>
     </Router>

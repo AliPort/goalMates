@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function SignUpPage(){
     return (
         <div className="SignUpPage">
-            <Link to="signup">
+            <Link to="register">
                 SIGN UP TODAY
             </Link>
             <h1>Why Goal Mates?</h1>
@@ -14,7 +14,7 @@ function SignUpPage(){
             </Link>
             <h1>Achieve your goals!</h1> 
             <h1>Find Success!</h1>
-            <Link to="signup">
+            <Link to="register">
                 SIGN UP TODAY
             </Link>
         </div>
