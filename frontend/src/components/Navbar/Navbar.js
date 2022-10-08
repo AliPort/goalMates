@@ -6,14 +6,12 @@ Bars,
 NavMenu,
 NavBtn,
 NavBtnLink,
-// NavLogo,
-// NavIcon
+NavLogo,
+NavIcon
 } from './NavbarElements';
 import { HamburgerMenu } from "../hamburgerMenu";
 // import { SearchBarNav } from '../SearchBarNav';
 import styled from "styled-components";
-// import SearchAppBar from '../SearchAppBar';
-
 
 const NavbarContainer = styled.div`
   width: 10%;
@@ -46,9 +44,6 @@ function Navbar(props) {
 					<NavLink to='/LogIn' activestyle>
 						Log in
 					</NavLink>
-					<NavLink to='/WeatherMain' activestyle>
-						Weather info
-					</NavLink>
 					<NavLink to='/Signup' activestyle>
 						Sign up
 					</NavLink>
@@ -61,8 +56,7 @@ function Navbar(props) {
 					<NavBtnLink to='/LogIn'>Sign in</NavBtnLink>
 				</NavBtn>
 				<NavbarContainer>
-				 {/* <SearchBarNav />  */}
-		{/* <SearchAppBar />			 */}
+				{/* <SearchBarNav /> */}
       <HamburgerMenu />
     </NavbarContainer>
 			</Nav>

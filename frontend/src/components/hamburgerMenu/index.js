@@ -122,20 +122,17 @@ export function HamburgerMenu(props) {
         transition={menuTransition}
       >
         <TopContainer>
-          <a href="login">
-            <LoginButton
-              initial={false}
-              animate={isOpen ? "show" : "hide"}
-              variants={commonVariants}
-              transition={commonTransition}
-            >
-              <IconContainer>
-                <FontAwesomeIcon icon={faUserCircle} />
-              </IconContainer>
-              LOGIN
-            </LoginButton>
-          </a>
-          <a href="signuppage">
+          <LoginButton
+            initial={false}
+            animate={isOpen ? "show" : "hide"}
+            variants={commonVariants}
+            transition={commonTransition}
+          >
+            <IconContainer>
+              <FontAwesomeIcon icon={faUserCircle} />
+            </IconContainer>
+            LOGIN
+          </LoginButton>
           <LoginButton
             initial={false}
             animate={isOpen ? "show" : "hide"}
@@ -144,7 +141,6 @@ export function HamburgerMenu(props) {
           >
             SIGN UP
           </LoginButton>
-          </a>
         </TopContainer>
         <ContentContainer>
           <NavMenu isOpen={isOpen} />
