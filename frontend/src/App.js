@@ -14,13 +14,14 @@ import SignUpPage from './components/Pages/SignUpPage';
 import About from './components/Pages/About';
 // import Contact from './components/Pages/Contact';
 // import GoalsPage from './components/Pages/GoalsPage';
-// import YourMates from './components/Pages/YourMates';
+import YourMates from './components/Pages/YourMates';
 // import Goal from './components/Pages/Goal';
 
-// import { useState } from 'react';
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar';
 import { HamburgerMenu } from './components/hamburgerMenu';
+import Register from './components/Pages/Register';
 
 function App() {
 
@@ -34,8 +35,9 @@ function App() {
           <Route path="/" element = {<Home/>} />  
           <Route path="/about/" element= {<About/>} /> 
           <Route path="/LogIn" element={<LogIn />} /> 
-          <Route path="/WeatherMain" element={<WeatherMain/>} /> 
+          {/* <Route path="/WeatherMain" element={<WeatherMain/>} />  */}
           <Route path='/signup' element={<SignUpPage/>}/>  
+          {<Route path='/register' element={<Register/>}/>}
 
    
    
@@ -55,6 +57,7 @@ function App() {
         {/* <Route path='/profile' element={<Profile/>} />  */}
         {/* <Route path='/about' element={<About/>}/> */}
         {/* <Route path='/contact' element={<Contact/>}/> */}
+       
         
       </Routes>
       
