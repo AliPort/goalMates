@@ -210,7 +210,7 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="/.YourGoals">YourGoals</a>
+          <a href="#">YourGoals</a>
         </NavLink>
       </NavList>
     </NavMenuContainer>

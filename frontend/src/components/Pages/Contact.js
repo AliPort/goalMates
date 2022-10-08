@@ -5,14 +5,14 @@ import background from "../Assets/images/bgrnd1.jpeg"
 function Contact () {
    
     return (
-  
-        <Section id="container">
+
+        <Container>
+
 
         <div className="Contact">
             <h1>Contact Us</h1>
         </div>
-        </Section>
-            
+        </Container>    
     )
 }
 const Section = styled.section`
