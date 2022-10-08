@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom"
-import StarredGoals from '../StarredGoals';
-import UpcomingGoals from '../UpcomingGoals';
+import StarredGoals from './StarredGoals';
+import UpcomingGoals from './UpcomingGoals';
 import SideBar from '../SideBar/Sidebar';
 
 function Home(){

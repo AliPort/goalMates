@@ -9,6 +9,7 @@ function GoalsView(props){
         )
     })
     return (
+        <section id="goalsview">
         <div>
             {display}
             <h1>This is the GoalsView component</h1>
@@ -17,6 +18,7 @@ function GoalsView(props){
                 Create New Goal
             </Link>
         </div>
+        </section>
     )
 }
 

@@ -13,12 +13,15 @@
 /build
 
 # misc
+.env
 .DS_Store
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+package.json
+package-lock.json
 
 
 npm-debug.log*
@@ -30,4 +33,5 @@ frontend\package-lock.json
 node_modules
 
 package-lock.json
-package.json
+# package.json <--- this file is needed to be pushed. every time you pull you need to run npm i
+#to get the most recent packages

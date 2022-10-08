@@ -1,5 +1,4 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-.git/.index.lock
 
 # dependencies
 /node_modules.
@@ -9,13 +8,11 @@
 # testing
 /coverage
 
-
 # production
 /build
 
 # misc
 .DS_Store
-.env
 .env.local
 .env.development.local
 .env.test.local
@@ -30,3 +27,5 @@ backend\node_modules
 backend\package-lock.json
 
 
+node_modules
+package-lock.json
