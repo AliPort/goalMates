@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import {Button} from '../Globalstyles';
-import img from "../Assets/images/soccer.jpg";
+import img from "../assets/soccer.jpg";
 import {
     HeroContainer,
     HeroContent,
@@ -35,8 +35,7 @@ function About () {
                         </HeroTitle>
                         <HeroSubTitle>Your new community is waiting for you. Millions of people have chosen goalMates to make real connections over the things that matter. Start a group today!</HeroSubTitle>
                         <HeroText>
-                            Get a fresh and tasty recepies that are well balanced and 
-                            will improve your wellness, plus add nutrients to your body.
+                            Come and join our community!
                         </HeroText>
                         <HeroBtn to="/newgroup">
                            <Button primary big bigFont bigRadius>Start a new Goal</Button>

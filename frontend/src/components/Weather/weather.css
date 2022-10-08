@@ -7,8 +7,8 @@
 
 /*-- Reset Code --*/
 
-html,
-body,
+/* html,
+body, */
 div,
 span,
 applet,
@@ -192,7 +192,7 @@ img {
 
 /*-- Index-Page-Styling --*/
 
-body {
+.weathermain {
   background: url("./images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -205,7 +205,7 @@ body {
   text-align: center;
 }
 
-body a {
+.weathermain {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -667,13 +667,13 @@ div#txt {
   top: 2%;
   font-size: 25px;
 }
-.footer-info {
+/* .footer-info {
   color: white;
 }
 .footer-info a {
   color: floralwhite;
-  font-weight: bold;
-}
+  font-weight: bold; */
+
 .hh_button {
   display: inline-block;
   text-decoration: none;

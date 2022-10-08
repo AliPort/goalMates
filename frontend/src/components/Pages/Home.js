@@ -9,9 +9,9 @@ function Home(){
         <div className="Home">
             <h1>Welcome, Mate!</h1> 
             {/* user name will replace mate */}
-            <StarredGoals/>
-            <SideBar/>
-            <UpcomingGoals/>
+            <Link to="starred-goals"> Starred Goals</Link>
+            <Link to="upcoming-goals"> Upcoming Goals</Link>
+            <Link to="sidebar"> Sidebar</Link>
             <Link to="newgoal">
                 Create New Goal
             </Link>
