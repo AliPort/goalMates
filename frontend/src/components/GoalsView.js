@@ -1,9 +1,16 @@
 import React from 'react';
 import {Link} from "react-router-dom"
+import GoalItem from './GoalsItem';
 
-function GoalsView(){
+function GoalsView(props){
+    const display = props.data.map((item,index) => {
+        return (
+            <GoalItem item={item} key={index} />
+        )
+    })
     return (
         <div>
+            {display}
             <h1>This is the GoalsView component</h1>
             <h2>You can also create your own goals to find common goals</h2>
             <Link to="newgoal">
