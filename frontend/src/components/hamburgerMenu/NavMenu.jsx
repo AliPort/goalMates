@@ -49,6 +49,7 @@ export function NavMenu({ isOpen }) {
   return (
     <NavMenuContainer>
       <NavList>
+      
         <NavLink
           initial={false}
           animate={isOpen ? "show" : "hide"}
@@ -66,6 +67,7 @@ export function NavMenu({ isOpen }) {
        
           <a href="./Goal">Goal</a>
         </NavLink>
+  
         <NavLink
           initial={false}
           animate={isOpen ? "show" : "hide"}

@@ -1,6 +1,6 @@
 import React from "react";
-import Chat from "../SideBar/Chat";
-import GoalsView from "./GoalsView";
+// import Chat from "../SideBar/Chat";
+// import GoalsView from "./GoalsView";
 
 function Profile () {
     return (
@@ -10,8 +10,8 @@ function Profile () {
             <h2>Joined: data</h2>
             <h2>Bio: data</h2>
             <h2>you are/are not mates</h2>
-            <Chat/>
-            <GoalsView/>
+            <Link to="chat">Chat</Link>
+            <Link to="goalsview">Goals View</Link>
         </div>
     )
 };

@@ -21,6 +21,7 @@ const NavbarContainer = styled.div`
   flex-direction: row-reverse;
   align-items: center;
   padding: 0 1.5em;
+  
 `;
 
 
@@ -35,16 +36,19 @@ function Navbar(props) {
 
 				<NavMenu>
 
-					<NavLink to='/' activestyle>
+					<NavLink to='/'>
 						Home
 					</NavLink>
-					<NavLink to='/About' activestyle>
+					<NavLink to='About'>
 						About
 					</NavLink>
-					<NavLink to='/LogIn' activestyle>
+					<NavLink to='LogIn'>
 						Log in
 					</NavLink>
-					<NavLink to='/Signup' activestyle>
+					<NavLink to='WeatherMain'>
+						Weather info
+					</NavLink>
+					<NavLink to='SignUpPage'>
 						Sign up
 					</NavLink>
 

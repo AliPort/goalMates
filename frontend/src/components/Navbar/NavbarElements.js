@@ -7,7 +7,7 @@ background: #ff4d4d;
 height: 50px;
 display: flex;
 justify-content: space-between;
-padding: 0.2rem calc((100vw - 1000px) / 2);
+padding: 0.rem calc((100vw - 1000px) / 2);
 z-index: 12;
 /* Third Nav */
  
@@ -57,7 +57,7 @@ white-space: nowrap; */
 export const NavBtn = styled.nav`
 display: flex;
 align-items: center;
-margin-right: 24px;
+margin-right: 220px;
 /* Third Nav */
 /* justify-content: flex-end;
 width: 100vw; */

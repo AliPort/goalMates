@@ -6,7 +6,7 @@ function LogIn(){
         <div className="LogInPage">
             <h1>LOG IN PLACEHOLDER</h1>
             <h2>New to goalMates?</h2>
-            <Link to="signup">
+            <Link to="signUp">
                 SIGN UP TODAY
             </Link>
         </div>
