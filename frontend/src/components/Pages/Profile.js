@@ -1,6 +1,6 @@
 import React from "react";
 import Chat from "../SideBar/Chat";
-import GoalsView from "../GoalsView";
+import GoalsView from "./GoalsView";
 
 function Profile () {
     return (
