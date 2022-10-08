@@ -1,17 +1,15 @@
 import React from 'react';
 import { Link } from "react-router-dom"
-import StarredGoals from './StarredGoals';
-import UpcomingGoals from './UpcomingGoals';
 import SideBar from '../SideBar/Sidebar';
+import MatesView from './MatesView';
 
-function Home(){
+function YourMates(){
     return (
-        <div className="Home">
-            <h1>Welcome, Mate!</h1> 
+        <div className="YourMates">
+            <h1>Say hi to your mates!</h1> 
             {/* user name will replace mate */}
-            <StarredGoals/>
             <SideBar/>
-            <UpcomingGoals/>
+            <MatesView/>
             <Link to="newgoal">
                 Create New Goal
             </Link>
@@ -19,4 +17,4 @@ function Home(){
     )
 }
 
-export default Home
+export default YourMates
