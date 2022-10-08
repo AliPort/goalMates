@@ -4,7 +4,7 @@ import "./weather.css";
 
 function WeatherMain() {
   return (
-    <React.Fragment className="weathermain">
+    <React.Fragment className="weather">
       <div className="container">
         <CurrentLocation />
       </div>

@@ -9,13 +9,7 @@
 
 /* html,
 body, */
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
+div, span, applet, object, iframe, h1, h2,
 h3,
 h4,
 h5,
@@ -192,7 +186,7 @@ img {
 
 /*-- Index-Page-Styling --*/
 
-.weathermain {
+.weather {
   background: url("./images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -205,7 +199,7 @@ img {
   text-align: center;
 }
 
-.weathermain {
+.weather {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
