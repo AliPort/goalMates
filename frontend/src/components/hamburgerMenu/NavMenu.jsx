@@ -64,7 +64,7 @@ export function NavMenu({ isOpen }) {
           }}
         >
        
-          <a href="Goal">Goal</a>
+          <a href="./Goal">Goal</a>
         </NavLink>
         <NavLink
           initial={false}
@@ -208,7 +208,7 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="/.YourGoals">YourGoals</a>
+          <a href="#">YourGoals</a>
         </NavLink>
       </NavList>
     </NavMenuContainer>
