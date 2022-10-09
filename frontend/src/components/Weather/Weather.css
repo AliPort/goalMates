@@ -483,6 +483,7 @@
     -webkit-appearance: none;
     background-color: #ffffff;
     cursor: pointer;
+  
   }
   
   .switch {
@@ -498,6 +499,7 @@
     top: 100;
     margin: 15px 20px;
     outline: none;
+    
   }
   
   .switch::after {
