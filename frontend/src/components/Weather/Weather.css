@@ -496,7 +496,7 @@
     position: absolute;
     cursor: pointer;
     left: 0;
-    top: 0;
+    top: 100;
     margin: 15px 20px;
     outline: none;
   }
