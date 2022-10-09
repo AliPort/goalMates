@@ -2,6 +2,7 @@
 
 Find Your Peeps to Help You Succeed!
 
+
 ## Description
 
 A social media application that allows users to:
@@ -19,6 +20,7 @@ Technologies used:
 
 Challenges faced:
 * Two week time constraint
+* First time collaborating on a project
 
 Features we hope to implement in the future:
 * Photo Albums
@@ -28,8 +30,23 @@ Features we hope to implement in the future:
 
 ## Install and Run
 
-* Install the npm package:
-   $ npm install
+* Clone our repo to your local machine:
+https://github.com/AliPort/goalMates.git
+
+* Start the server:
+  `$cd backend
+
+   $npm install
+   $npm run server`
+
+* Execute the frontend:
+  `$cd ..
+   $cd frontend
+
+   $npm install
+   $npm start`
+    
+
 
 
 ## Credits
@@ -43,13 +60,20 @@ Collaborators
 * Kevin Beck [https://github.com/BarbarianWizard]
 * Tammy Swierczynski [https://github.com/cre8ivesolutions]
 
+Libraries
+* Express
+* React Router
+* React Testing Library
+
 Citations
 * https://www.geeksforgeeks.org/how-to-develop-user-registration-form-in-reactjs/ 
 * https://github.com/SoumyashreeBehera/meetup-clone
-* 
+* https://reactjs.org/docs/testing-recipes.html
 
 
 ## Tests
+
+Unit Test - to test a React component or function in isolation 
 
 ## License
 
