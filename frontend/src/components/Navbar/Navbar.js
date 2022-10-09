@@ -45,7 +45,7 @@ function Navbar(props) {
 					<NavLink to='LogIn'>
 						Log in
 					</NavLink>
-					<NavLink to='Lacation'>
+					<NavLink to='weather'>
 						Weather
 					</NavLink>
 					<NavLink to='SignUpPage'>

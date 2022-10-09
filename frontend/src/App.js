@@ -5,6 +5,7 @@ import './App.css';
 
 import LogIn from './components/Pages/LogIn';
 import Footer from './components/Footer/Footer';
+import Weather from './Weather';
 
 
 //pages
@@ -32,6 +33,7 @@ function App() {
 
           <Route path="/" element={<Home />} />
           <Route path="/about/" element={<About />} />
+          <Route path="/Weather" element={<Weather />} />
           <Route path="/LogIn" element={<LogIn />} />
 
           <Route path='/signup' element={<SignUpPage />} />
