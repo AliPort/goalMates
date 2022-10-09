@@ -5,7 +5,7 @@ import React from "react";
 import { useState } from "react";
 import styled from "styled-components";
 import { MenuToggle } from "./menuToggle";
-import { NavMenu } from "./NavMenu";
+import NavMenu  from "./NavMenu";
 
 const HamburgerMenuContainer = styled.div`
   display: flex;
@@ -105,7 +105,10 @@ const commonVariants = {
 
 const commonTransition = { type: "spring", duration: 0.05 };
 
-export function HamburgerMenu(props) {
+
+
+export default function HamburgerMenu(props) {
+  
   const [isOpen, setOpen] = useState(false);
 
   const toggleMenu = () => {

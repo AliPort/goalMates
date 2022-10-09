@@ -43,6 +43,11 @@ Collaborators
 * Kevin Beck [https://github.com/BarbarianWizard]
 * Tammy Swierczynski [https://github.com/cre8ivesolutions]
 
+Citations
+* https://www.geeksforgeeks.org/how-to-develop-user-registration-form-in-reactjs/ 
+* https://github.com/SoumyashreeBehera/meetup-clone
+* 
+
 
 ## Tests
 

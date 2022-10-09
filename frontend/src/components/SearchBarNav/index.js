@@ -74,7 +74,7 @@ function SearchNav(props) {
         barOpened={barOpened}
         onClick={() => {
           
-            } />
+           
           // When form clicked, set state of baropened to true and focus the input
           setBarOpened(true);
           inputFocus.current.focus();
