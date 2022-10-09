@@ -484,6 +484,7 @@
     -webkit-appearance: none;
     background-color: #ffffff;
     cursor: pointer;
+    appearance: none;
   }
   
   .switch {
@@ -499,6 +500,7 @@
     top: 100;
     margin: 15px 20px;
     outline: none;
+    appearance: none;
   }
   
   .switch::after {
