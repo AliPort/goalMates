@@ -1,15 +1,15 @@
 import React from 'react';
 import {
-Nav,
-NavLink,
-Bars,
-NavMenu,
-NavBtn,
-NavBtnLink,
-NavLogo,
-NavIcon
+	Nav,
+	NavLink,
+	Bars,
+	NavMenu,
+	NavBtn,
+	NavBtnLink,
+	NavLogo,
+	NavIcon
 } from './NavbarElements';
-import { HamburgerMenu } from "../hamburgerMenu";
+import HamburgerMenu  from "../hamburgerMenu/HamburgerMenu";
 // import { SearchBarNav } from '../SearchBarNav';
 import styled from "styled-components";
 
@@ -26,7 +26,7 @@ const NavbarContainer = styled.div`
 
 
 
-	
+
 
 function Navbar(props) {
 	return (
@@ -45,8 +45,8 @@ function Navbar(props) {
 					<NavLink to='LogIn'>
 						Log in
 					</NavLink>
-					<NavLink to='WeatherMain'>
-						Weather info
+					<NavLink to='weather'>
+						Weather
 					</NavLink>
 					<NavLink to='SignUpPage'>
 						Sign up
@@ -55,14 +55,14 @@ function Navbar(props) {
 					{/* Second Nav */}
 					{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 				</NavMenu>
-				
+
 				<NavBtn>
 					<NavBtnLink to='/LogIn'>Sign in</NavBtnLink>
 				</NavBtn>
 				<NavbarContainer>
-				{/* <SearchBarNav /> */}
-      <HamburgerMenu />
-    </NavbarContainer>
+					{/* <SearchBarNav /> */}
+					<HamburgerMenu />
+				</NavbarContainer>
 			</Nav>
 		</>
 	);
