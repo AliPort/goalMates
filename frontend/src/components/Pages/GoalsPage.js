@@ -2,7 +2,7 @@ import React from "react";
 import GoalsView from "./GoalsView";
 import { Link } from "react-router-dom"
 import styled from "styled-components";
-import background from "../Assets/images/bgrnd1.jpeg"
+// import background from "../assets/images/bgrnd1.jpeg"
 
 
 function GoalsPage () {
@@ -22,7 +22,7 @@ function GoalsPage () {
 };
 
 const Section = styled.section`
-  background-image: url(${background});
+  background-image: url(${null});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
