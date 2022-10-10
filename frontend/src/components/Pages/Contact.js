@@ -1,6 +1,7 @@
+/*
 import React from "react"
 import styled from "styled-components";
-import background from "../Assets/images/bgrnd1.jpeg"
+// import background from "../assets/images/bgrnd1.jpg"
 
 function Contact () {
    
@@ -21,7 +22,7 @@ const Section = styled.section`
   background-size: cover;
   background-position: center;
   display: grid;
-  ${'' /* grid-template-columns: 50% 50%; */}
+  ${'' /* grid-template-columns: 50% 50%; }
   height: 100vh; 
   align-items: center;
   .text {
@@ -55,11 +56,11 @@ const Section = styled.section`
     height: max-content;
     text-align: center;
     margin: 0 1rem;
-    */}
+    }
     .text {
       padding-left: 0;
       display: flex;
-      ${'' /* flex-direction: column; */}
+      ${'' /* flex-direction: column; }
       align-items: center;
       h1 {
         font-size: 8vw;
@@ -81,3 +82,4 @@ const Section = styled.section`
 
 
 export default Contact;
+*/
