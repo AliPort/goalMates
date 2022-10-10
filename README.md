@@ -45,11 +45,14 @@ https://github.com/AliPort/goalMates.git
    ```
 
 * Execute the frontend:
-  `$cd ..
+  ```
+   $cd ..
    $cd frontend
 
    $npm install
-   $npm start`
+   $npm start
+
+   ```
     
 
 
