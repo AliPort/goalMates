@@ -61,12 +61,12 @@ https://github.com/AliPort/goalMates.git
 
 Collaborators
 
-* Agnieszka Mogelnicki | https://github.com/Agusienka
-* Alita Portillo [https://github.com/AliPort]
-* Crystal Korth [https://github.com/defworm]
-* Elizabeth Ptack [https://github.com/EPtackArts]
-* Kevin Beck [https://github.com/BarbarianWizard]
-* Tammy Swierczynski [https://github.com/cre8ivesolutions]
+* Agnieszka Mogelnicki :smiley: https://github.com/Agusienka
+* Alita Portillo       :relaxed: https://github.com/AliPort
+* Crystal Korth        :blush: https://github.com/defworm
+* Elizabeth Ptack      :smirk: https://github.com/EPtackArts
+* Kevin Beck           :grin: https://github.com/BarbarianWizard
+* Tammy Swierczynski   :satisfied: https://github.com/cre8ivesolutions
 
 Libraries
 * Express
@@ -87,9 +87,9 @@ Citations
 `npm test`
 
 * TC-01 Required Fields on Registration
-- Do not enter any value in the field
-- Click on the register button
-- Expected result: Should receive a red error message requesting completion of all fields (Profile Pic not mandatory)
+1. Do not enter any value in the field
+2. Click on the register button
+3. Expected result: Should receive a red error message requesting completion of all fields (Profile Pic not mandatory)
 
 ## License
 
