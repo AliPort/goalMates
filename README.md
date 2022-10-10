@@ -12,11 +12,7 @@ A social media application that allows users to:
 * Find people, projects or events based on similar interests, date, or location
 
 Technologies used:
-* HTML
-* CSS
-* JavaScript
-* React
-* PostGreSql
+ [![bootstrap](https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg)](https://getbootstrap.com)[![css3](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg) ](https://www.w3schools.com/css/)[![express](https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg) ](https://expressjs.com)[![html5](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg) ](https://www.w3.org/html/)[![javascript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg) ](https://developer.mozilla.org/en-US/docs/Web/JavaScript)[![nodejs](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg) ](https://nodejs.org)[![postgresql](https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg) ](https://www.postgresql.org)[![redux](https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg)](https://redux.js.org)
 
 Challenges faced:
 * Two week time constraint
@@ -63,12 +59,14 @@ Collaborators
 Libraries
 * Express
 * React Router
-* React Testing Library
+* React Testing
 
 Citations
-* https://www.geeksforgeeks.org/how-to-develop-user-registration-form-in-reactjs/ 
-* https://github.com/SoumyashreeBehera/meetup-clone
-* https://reactjs.org/docs/testing-recipes.html
+* CRUD Tutorial https://www.youtube.com/watch?v=re3OIOr9dJI
+* Meetup Clone  https://github.com/SoumyashreeBehera/meetup-clone
+* React Forms   https://www.geeksforgeeks.org/how-to-develop-user-registration-form-in-reactjs/ 
+* React Tests   https://reactjs.org/docs/testing-recipes.html
+* Sequel Blog   https://sequelizeui.app/schema/blog
 
 
 ## Tests
