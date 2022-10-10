@@ -67,6 +67,10 @@ Citations
 * React Forms   https://www.geeksforgeeks.org/how-to-develop-user-registration-form-in-reactjs/ 
 * React Tests   https://reactjs.org/docs/testing-recipes.html
 * Sequel Blog   https://sequelizeui.app/schema/blog
+<<<<<<< HEAD
+=======
+
+>>>>>>> 177eddd66b2406af6369c552b9b77e2d5d7fe912
 
 
 ## Tests
@@ -96,5 +100,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 
