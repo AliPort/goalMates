@@ -37,10 +37,12 @@ Features we hope to implement in the future:
 https://github.com/AliPort/goalMates.git
 
 * Start the server:
-  ```$cd backend
+  ```
+   $cd backend
 
    $npm install
-   $npm run server```
+   $npm run server
+   ```
 
 * Execute the frontend:
   `$cd ..
