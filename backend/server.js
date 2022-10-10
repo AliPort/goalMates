@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const { Sequelize } = require("sequelize");
-import user from "./src/controllers/user_controller.js";
+// import user from "./src/controllers/user_controller.js";
 
 const PORT = process.env.PORT;
 
@@ -13,6 +13,6 @@ app.get("/", (req, res) => {
   res.send("welcome");
 });
 
-app.listen(PORT, () => console.log(`listening on port goalMates ${PORT}`));
+app.listen(PORT, () => console.log(`listening on port goalMates ${process.env.PORT || 4000}`));
 
-module.export = goalMates_server;
+// module.export = goalMates_server;
