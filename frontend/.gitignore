@@ -20,7 +20,7 @@ node_modules
 .env.development.local
 .env.test.local
 .env.production.local
-package.json
+
 /package-lock.json
 
 
@@ -35,4 +35,4 @@ frontend\package-lock.json
 node_modules
 
 package-lock.json
-package.json
+
