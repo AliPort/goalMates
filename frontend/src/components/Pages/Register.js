@@ -1,8 +1,10 @@
-// Sourced from https://www.geeksforgeeks.org/how-to-develop-user-registration-form-in-reactjs/
+// Sourced from https://www.geeksforgeeks.org/how-to-develop-user-registration-form-in-reactjs/ 
 
 import { useState } from 'react';
+import React from 'react';
+import { Link } from "react-router-dom"
 
-export default function SignUp() {
+function Register() {
 
     // States for registration
     const [username, setName] = useState('');
@@ -143,4 +145,4 @@ export default function SignUp() {
     );
 }
 
-
+export default Register

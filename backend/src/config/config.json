@@ -1,22 +1,22 @@
 {
     "development": {
       "username": "postgres",
-      "password": "password",
+      "password": "1234",
       "database": "goalMates",
       "host": "127.0.0.1",
       "dialect": "postgres", 
-      "port": "4000"
+      "port": "5432"
     },
     "test": {
       "username": "postgres",
-      "password": "password",
+      "password": "1234",
       "database": "goalMates_test",
       "host": "127.0.0.1",
       "dialect": "postgres"
     },
     "production": {
       "username": "postgres",
-      "password": "password",
+      "password": "1234",
       "database": "goalMates_production",
       "host": "127.0.0.1",
       "dialect": "postgres"
