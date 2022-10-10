@@ -61,12 +61,12 @@ https://github.com/AliPort/goalMates.git
 
 Collaborators
 
-* Agnieszka Mogelnicki :smiley: https://github.com/Agusienka
-* Alita Portillo       :relaxed: https://github.com/AliPort
-* Crystal Korth        :blush: https://github.com/defworm
-* Elizabeth Ptack      :smirk: https://github.com/EPtackArts
-* Kevin Beck           :grin: https://github.com/BarbarianWizard
-* Tammy Swierczynski   :satisfied: https://github.com/cre8ivesolutions
+* Agnieszka Mogelnicki :point_right: https://github.com/Agusienka
+* Alita Portillo       :point_right: https://github.com/AliPort
+* Crystal Korth        :point_right: https://github.com/defworm
+* Elizabeth Ptack      :point_right: https://github.com/EPtackArts
+* Kevin Beck           :point_right: https://github.com/BarbarianWizard
+* Tammy Swierczynski   :point_right: https://github.com/cre8ivesolutions
 
 Libraries
 * Express
