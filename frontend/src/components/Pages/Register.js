@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import React from 'react';
 import { Link } from "react-router-dom"
+// import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap-theme.css';
 
 function Register() {
 
@@ -24,6 +26,7 @@ function Register() {
     const handleName = (e) => {
         setName(e.target.value);
         setSubmitted(false);
+        
     };
 
     // Handling the email change
@@ -59,7 +62,7 @@ function Register() {
     // Handling the form submission
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (username === '' || email === '' || password === '') {
+        if (username === '' || email === '' || password === '' || location === '' || bio === '') {
             setError(true);
         } else {
             setSubmitted(true);

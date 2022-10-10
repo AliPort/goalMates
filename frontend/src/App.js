@@ -12,6 +12,7 @@ import Weather from './Weather';
 import Home from './components/Pages/Home';
 import SignUpPage from './components/Pages/SignUpPage';
 import About from './components/Pages/About';
+import Register from './components/Pages/Register';
 
 // import { useState } from 'react';
 import { BrowserRouter as Router,  Route , Routes} from 'react-router-dom'
@@ -37,6 +38,8 @@ function App() {
           <Route path="/LogIn" element={<LogIn />} />
 
           <Route path='/signup' element={<SignUpPage />} />
+
+          <Route path='/register' element={<Register />} />
 
           </Routes>
 
