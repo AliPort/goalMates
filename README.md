@@ -12,7 +12,14 @@ A social media application that allows users to:
 * Find people, projects or events based on similar interests, date, or location
 
 Technologies used:
-
+- HTML
+- JavaScript
+- CSS
+- React
+- Redux
+- PostGreSQL
+- node.js
+- Vercel
 
 Challenges faced:
 * Two week time constraint
@@ -108,4 +115,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-!/[forks] (https://badgen.net/badge/github/forks/micromatch/micromatch)
