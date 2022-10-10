@@ -25,7 +25,7 @@ import YourMates from './components/Pages/YourMates';
 // import goalMates_Server from '..../backend/server' 
 
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
   let [search, setSearch] = useState('')

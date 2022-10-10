@@ -25,7 +25,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Goal.init({
       goal_id: {
-        type: DataTypes.STRING,
+        type: DataTypes.INTEGER,
         primaryKey: false,
       },
         goalName: {
