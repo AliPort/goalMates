@@ -61,7 +61,7 @@ https://github.com/AliPort/goalMates.git
 
 Collaborators
 
-* Agnieszka Mogelnicki [https://github.com/Agusienka]
+* Agnieszka Mogelnicki | https://github.com/Agusienka
 * Alita Portillo [https://github.com/AliPort]
 * Crystal Korth [https://github.com/defworm]
 * Elizabeth Ptack [https://github.com/EPtackArts]
