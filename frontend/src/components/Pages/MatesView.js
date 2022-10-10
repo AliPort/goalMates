@@ -1,4 +1,4 @@
-// i needed to add this page for the router
+/* i needed to add this page for the router
 // I am not working on this page, but there is a wireframe for this page
 
 import React from 'react';
@@ -13,4 +13,4 @@ function MatesView(){
     )
 }
 
-export default MatesView;
+export default MatesView; */

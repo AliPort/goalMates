@@ -1,12 +1,10 @@
 import React from 'react';
 import {Link} from "react-router-dom"
-import GoalItem from './GoalsItem';
+// import GoalItem from './GoalsItem';
 
 function GoalsView(props){
     const display = props.data.map((item,index) => {
-        return (
-            <GoalItem item={item} key={index} />
-        )
+        
     })
     return (
         <section id="goalsview">
@@ -32,3 +30,7 @@ export default GoalsView
 //     setSearch(term)
 // }
 // console.log({data})
+
+// return (
+//    <GoalItem item={item} key={index} />
+//    )

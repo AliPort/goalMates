@@ -101,40 +101,7 @@ function NavMenu({ isOpen }) {
             },
           }}
         >
-        <Link to="Goalsview">Goals View</Link>
-         
-        </NavLink>
-        <NavLink
-          initial={false}
-          animate={isOpen ? "show" : "hide"}
-          variants={{
-            show: {
-              ...variants.show,
-              transition: { delay: 0.8, duration: 0.2 },
-            },
-            hide: {
-              ...variants.hide,
-              transition: { delay: 0.3, duration: 0.05 },
-            },
-          }}
-        >
-        <Link to="MatesView">Mates View</Link>
         
-        </NavLink>
-        <NavLink
-          initial={false}
-          animate={isOpen ? "show" : "hide"}
-          variants={{
-            show: {
-              ...variants.show,
-              transition: { delay: 0.8, duration: 0.2 },
-            },
-            hide: {
-              ...variants.hide,
-              transition: { delay: 0.3, duration: 0.05 },
-            },
-          }}
-        >
         <Link to="Profile">Profile</Link>
         </NavLink>
         <NavLink
@@ -151,41 +118,8 @@ function NavMenu({ isOpen }) {
             },
           }}
         >
-        <Link to="StarredGoals">Starred Goals
-          </Link>
-         
-        </NavLink>
-        <NavLink
-          initial={false}
-          animate={isOpen ? "show" : "hide"}
-          variants={{
-            show: {
-              ...variants.show,
-              transition: { delay: 0.8, duration: 0.2 },
-            },
-            hide: {
-              ...variants.hide,
-              transition: { delay: 0.3, duration: 0.05 },
-            },
-          }}
-        >
-        <Link to="UpcomingGoals">Upcoming Goals</Link>
-      
-        </NavLink>
-        <NavLink
-          initial={false}
-          animate={isOpen ? "show" : "hide"}
-          variants={{
-            show: {
-              ...variants.show,
-              transition: { delay: 0.8, duration: 0.2 },
-            },
-            hide: {
-              ...variants.hide,
-              transition: { delay: 0.3, duration: 0.05 },
-            },
-          }}
-        >
+        
+        
         <Link to="WhyGoalsMates">Why goalMates</Link>
           
         </NavLink>
