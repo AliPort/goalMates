@@ -42,14 +42,17 @@ function Navbar(props) {
 					<NavLink to='About'>
 						About
 					</NavLink>
-					<NavLink to='LogIn'>
+					<NavLink to='inputtodo'>
 						Log in
 					</NavLink>
 					<NavLink to='weather'>
 						Weather
 					</NavLink>
-					<NavLink to='SignUpPage'>
+					<NavLink to='signup'>
 						Sign up
+					</NavLink>
+					<NavLink to='whygoalmates'>
+						Let's Blog!
 					</NavLink>
 
 					{/* Second Nav */}

@@ -4,6 +4,7 @@ import styled from "styled-components";
 import {Link} from "react-router-dom";
 
 
+
 const NavMenuContainer = styled.div`
   width: 100%;
   display: flex;
@@ -66,7 +67,7 @@ function NavMenu({ isOpen }) {
             },
           }}
         >
-       <Link to="Goal">Goal</Link>
+       <Link to="header">Header</Link>
          
         </NavLink>
   
@@ -135,7 +136,7 @@ function NavMenu({ isOpen }) {
             },
           }}
         >
-        <Link to="Profile">Profile</Link>
+        <Link to="User">User</Link>
         </NavLink>
         <NavLink
           initial={false}

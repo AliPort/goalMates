@@ -4,16 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const { auth } = require('express-openid-connect');
-app.use(
-  auth({
-    issuerBaseURL: 'https://YOUR_DOMAIN',
-    baseURL: 'https://YOUR_APPLICATION_ROOT_URL',
-    clientID: 'YOUR_CLIENT_ID',
-    secret: 'LONG_RANDOM_STRING',
-    idpLogout: true,
-  })
-);
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

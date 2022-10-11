@@ -7,6 +7,8 @@ import styled from "styled-components";
 import { MenuToggle } from "./menuToggle";
 import NavMenu  from "./NavMenu";
 
+
+
 const HamburgerMenuContainer = styled.div`
   display: flex;
 `;
@@ -117,6 +119,7 @@ export default function HamburgerMenu(props) {
 
   return (
     <HamburgerMenuContainer>
+       
       <MenuToggle toggle={toggleMenu} isOpen={isOpen} />
       <MenuContainer
         initial={false}
