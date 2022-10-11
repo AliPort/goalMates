@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{Fragment} from 'react'
 import './App.css';
 
 //components
@@ -6,6 +6,10 @@ import './App.css';
 import LogIn from './components/Pages/LogIn';
 import Footer from './components/Footer/Footer';
 import Weather from './Weather';
+import WhyGoalMates from "./components/WhyGoalMates"
+// import InputTodo from './components/InputTodo';
+// import ListTodos from './components/ListTodos';
+
 
 
 
@@ -35,23 +39,15 @@ function App() {
         
 
         <Routes>
-    
-        
           <Route path="/" element={<Home />} />
+          {/* <Route path="/InputTodo" component={<InputTodo />} /> */}
+          {/* <Route path="ListTodos" component={<ListTodos />} /> */}
           <Route path="/about/" element={<About />} />
           <Route path="/Weather" element={<Weather />} />
           <Route path="/LogIn" element={<LogIn />} />
-
+          <Route path="/WhyGoalMates" component={<WhyGoalMates />} />
           <Route path='/signup' element={<SignUp />} />
-
         </Routes>
-
-
-
-
-
-
-
 
         {/* <Route path="/newuser" element={<SignUpPage/>}/> */}
 
